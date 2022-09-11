@@ -1,0 +1,385 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+  /* Chrome, Edge, and Safari */
+::-webkit-scrollbar {
+    width: 13px;
+}
+
+::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #929092;
+    border-radius: 8px;
+    border: 5px solid #ffffff;
+}
+
+.heading{
+    font-size: 2.2rem;
+    width: 100%;
+    height: 65px;
+    line-height: 65px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    color: rgb(120, 120, 120);
+}
+
+.whole-container-grid{
+    display: grid;
+    grid-template-columns: repeat(18, 70px);
+    grid-template-rows: repeat(9, 80px);
+    max-width: 1400px;
+    gap: 1px;
+    margin-left: 12rem;
+    margin-bottom: 1rem;
+}
+
+.whole-container-grid div{
+    border: 1px solid rgb(170, 170, 170);
+    text-align: center;
+    border-radius: 4px;
+}
+
+.whole-container-grid div h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+}
+
+.whole-container-grid div h3{
+    font-size: 1.2rem;
+}
+
+.whole-container-grid div h4, h5{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+}
+
+.two{
+    grid-column: 18;
+}
+
+.five{
+    grid-column: 13;
+}
+
+.thirteen{
+    grid-column: 13;
+}
+
+.fifty-seven, .fifty-eight, .fifty-nine, .sixty, .sixty-one, .sixty-two, .sixty-three, .sixty-four, .sixty-five, .sixty-six, .sixty-seven, .sixty-eight, .sixty-nine, .seventy, .seventy-one{
+    grid-row: 8;
+    margin-top: 10px;
+}
+
+.fifty-seven{
+    grid-column: 4;
+}
+
+.fifty-eight{
+    grid-column: 5;
+}
+
+.fifty-nine{
+    grid-column: 6;
+}
+
+.sixty{
+    grid-column: 7;
+}
+
+.sixty-one{
+    grid-column: 8;
+}
+
+.sixty-two{
+    grid-column: 9;
+}
+
+.sixty-three{
+    grid-column: 10;
+}
+
+.sixty-four{
+    grid-column: 11;
+}
+
+.sixty-five{
+    grid-column: 12;
+}
+
+.sixty-six{
+    grid-column: 13;
+}
+
+.sixty-seven{
+    grid-column: 14;
+}
+
+.sixty-eight{
+    grid-column: 15;
+}
+
+.sixty-nine{
+    grid-column: 16;
+}
+
+.seventy{
+    grid-column: 17;
+}
+
+.seventy-one{
+    grid-column: 18;
+}
+
+.seventy-two, .seventy-three, .seventy-four, .seventy-five, .seventy-six, .seventy-seven, .seventy-eight, .seventy-nine, .eighty, .eighty-one, .eighty-two, .eighty-three, .eighty-four, .eighty-five, .eighty-six{
+    grid-row: 6;
+}
+
+.seventy-two{
+    grid-column: 4;
+}
+
+.seventy-three{
+    grid-column: 5;
+}
+
+.seventy-four{
+    grid-column: 6;
+}
+
+.seventy-five{
+    grid-column: 7;
+}
+
+.seventy-six{
+    grid-column: 8;
+}
+
+.seventy-seven{
+    grid-column: 9;
+}
+
+.seventy-eight{
+    grid-column: 10;
+}
+
+.seventy-nine{
+    grid-column: 11;
+}
+
+.eighty{
+    grid-column: 12;
+}
+
+.eighty-one{
+    grid-column: 13;
+}
+
+.eighty-two{
+    grid-column: 14;
+}
+
+.eighty-three{
+    grid-column: 15;
+}
+
+.eighty-four{
+    grid-column: 16;
+}
+
+.eighty-five{
+    grid-column: 17;
+}
+
+.eighty-six{
+    grid-column: 18;
+}
+
+.eighty-seven, .eighty-eight{
+    grid-row: 7;
+}
+
+.eighty-seven{
+    grid-column: 1;
+}
+
+.eighty-eight{
+    grid-column: 2;
+}
+
+.eighty-nine, .ninety, .ninety-one, .ninety-two, .ninety-three, .ninety-four, .ninety-five, .ninety-six, .ninety-seven, .ninety-eight, .ninety-nine, .hundred, .hundred-one, .hundred-two, .hundred-three{
+    grid-row: 9;
+}
+
+.eighty-nine{
+    grid-column: 4;
+}
+
+.ninety{
+    grid-column: 5;
+}
+
+.ninety-one{
+    grid-column: 6;
+}
+
+.ninety-two{
+    grid-column: 7;
+}
+
+.ninety-three{
+    grid-column: 8;
+}
+
+.ninety-four{
+    grid-column: 9;
+}
+
+.ninety-five{
+    grid-column: 10;
+}
+
+.ninety-six{
+    grid-column: 11;
+}
+
+.ninety-seven{
+    grid-column: 12;
+}
+
+.ninety-eight{
+    grid-column: 13;
+}
+
+.ninety-nine{
+    grid-column: 14;
+}
+
+.hundred{
+    grid-column: 15;
+}
+
+.hundred-one{
+    grid-column: 16;
+}
+
+.hundred-two{
+    grid-column: 17;
+}
+
+.hundred-three{
+    grid-column: 18;
+}
+
+.hundred-four, .hundred-five, .hundred-six, .hundred-seven, .hundred-eight, .hundred-nine, .hundred-ten, .hundred-eleven, .hundred-twelve, .hundred-thirteen, .hundred-fourteen, .hundred-fifteen, .hundred-sixteen, .hundred-seventeen, .hundred-eighteen{
+    grid-row: 7;
+}
+
+.hundred-four{
+    grid-column: 4;
+}
+
+.hundred-five{
+    grid-column: 5;
+}
+
+.hundred-six{
+    grid-column: 6;
+}
+
+.hundred-seven{
+    grid-column: 7;
+}
+
+.hundred-eight{
+    grid-column: 8;
+}
+
+.hundred-nine{
+    grid-column: 9;
+}
+
+.hundred-ten{
+    grid-column: 10;
+}
+
+.hundred-eleven{
+    grid-column: 11;
+}
+
+.hundred-twelve{
+    grid-column: 12;
+}
+
+.hundred-thirteen{
+    grid-column: 13;
+}
+
+.hundred-fourteen{
+    grid-column: 14;
+}
+
+.hundred-fifteen{
+    grid-column: 15;
+}
+
+.hundred-sixteen{
+    grid-column: 16;
+}
+
+.hundred-seventeen{
+    grid-column: 17;
+}
+
+.hundred-eighteen{
+    grid-column: 18;
+}
+
+/* COLORS */
+
+.one, .six, .seven, .eight, .nine, .fifteen, .sixteen, .seventeen, .thirty-four, .thirty-five, .fifty-three, .eighty-five, .hundred-seventeen{
+    background: #fefeab;
+}
+
+.two, .ten, .eighteen, .thirty-six, .fifty-four, .eighty-six, .hundred-eighteen{
+    background: #fcdaab;
+}
+
+.five, .fourteen, .thirty-two, .thirty-three, .fifty-one, .fifty-two, .eighty-four{
+    background: #ddedad;
+}
+
+.thirteen, .thirty-one, .forty-nine, .fifty, .eighty-one, .eighty-two, .eighty-three, .hundred-thirteen, .hundred-fourteen, .hundred-fifteen, .hundred-sixteen{
+    background: #cafdca;
+}
+
+.three, .eleven, .nineteen, .thirty-seven, .fifty-five, .eighty-seven{
+    background: #fec3c3;
+}
+
+.four, .twelve, .twenty, .thirty-eight, .fifty-six, .eighty-eight{
+    background: #cacaff;
+}
+
+.twenty-one, .twenty-two, .twenty-three, .twenty-four, .twenty-five, .twenty-six, .twenty-seven, .twenty-eight, .twenty-nine, .thirty, .thirty-nine, .forty, .forty-one, .forty-two, .forty-three, .forty-three, .forty-four, .forty-five, .forty-six, .forty-seven, .forty-eight, .seventy-two, .seventy-three, .seventy-three, .seventy-four, .seventy-five, .seventy-six, .seventy-seven, .seventy-eight, .seventy-nine, .eighty, .hundred-four, .hundred-five, .hundred-six, .hundred-seven, .hundred-eight, .hundred-nine, .hundred-ten, .hundred-eleven, .hundred-twelve{
+    background: #bddfff;
+}
+
+.fifty-seven, .fifty-eight, .fifty-nine, .sixty, .sixty-one, .sixty-two, .sixty-three, .sixty-four, .sixty-five, .sixty-six, .sixty-seven, .sixty-eight, .sixty-nine, .seventy, .seventy-one{
+    background: #abffff; 
+}
+
+.eighty-nine, .ninety, .ninety-one, .ninety-two, .ninety-three, .ninety-four, .ninety-five, .ninety-six, .ninety-seven, .ninety-eight, .ninety-nine, .hundred, .hundred-one, .hundred-two, .hundred-three{
+    background: #CCFFEE;
+}
